@@ -9,7 +9,7 @@
     (function() {
       var hash = window.location.hash;
       if (hash && hash.length > 1) {
-        window.location.replace('com.gigtax.app:/oauth2redirect' + hash);
+        window.location.replace('com.peaknova.gigtax:/oauth2redirect' + hash);
       } else {
         document.getElementById('msg').textContent =
           'Sign-in did not complete. Please return to the GigTax app and try again.';
